@@ -1,0 +1,15 @@
+{
+  "name": "malanka-loader",
+  "version": "1.0.0",
+  "description": "Malanka webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Evgeny Shpilevsky <evgeny@shpilevsky.com>",
+  "license": "ISC",
+  "dependencies": {
+    "malanka": "*"
+  }
+}
