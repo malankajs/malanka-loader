@@ -1,4 +1,5 @@
 var TemplateCompiler = require('malanka/es5/Template/TemplateCompiler').TemplateCompiler;
+var ComponentsScanner = require('malanka/es5/Build/ComponentsScanner').ComponentsScanner;
 
 module.exports = function (content) {
     this.cacheable();
@@ -9,3 +10,5 @@ module.exports = function (content) {
 
     return new TemplateCompiler(this.options.scanner).compileString(content);
 };
+
+module.exports.ComponentsScanner = ComponentsScanner;
